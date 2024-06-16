@@ -52,6 +52,7 @@ function App() {
         </ul>
         <h1 id="location">Location</h1>
         <iframe
+          id="map"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12458.82391475801!2d-77.371845223926!3d38.67862474834301!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b657773744d461%3A0xc0d13e659f056b37!2sG%20%26%20F%20Barbeque!5e0!3m2!1sen!2sus!4v1718576386809!5m2!1sen!2sus"
           width="100%"
           height="450"
