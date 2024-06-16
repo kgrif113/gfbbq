@@ -1,4 +1,4 @@
-#root {
+/* #root {
   margin: 0;
   padding: 0;
   align-items: center;
@@ -80,4 +80,108 @@ h4 {
   display: flex;
   align-self: center;
   justify-content: center;
+} */
+
+
+/* test*/
+
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set up root styles */
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+/* Apply smooth scrolling behavior */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Style the menu bar */
+#menubar {
+  display: flex;
+  gap: 1em;
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+button {
+  background-color: #e6853b; /* Orange */
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  padding: 1em 2em;
+  font-size: 1rem;
+  cursor: pointer;
+  filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.5));
+}
+
+/* Style links */
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  filter: drop-shadow(0 0 1em #fff7f6c2);
+}
+
+/* Italicize section headings */
+h3 {
+  text-decoration: underline;
+  font-style: italic;
+  margin-top: 1em;
+}
+
+/* Center the app content */
+#app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Style the logo */
+.logo {
+  margin-top: 2em;
+  height: 8em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #feac99c2);
+}
+
+/* Center social icons */
+  #socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4em;
+  }
+  
+  h4 {
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+    align-self: center;
+    margin-bottom: 0.5em; /* Add some spacing below the text */
+  }
+
+/* Style Instagram icon */
+#instagram {
+  width: 7em;
+  align-self: center;
+  align-items: center;
+  display: flex;
+
 }
