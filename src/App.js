@@ -65,6 +65,7 @@ function App() {
           <a
             target="_blank"
             id="instagram"
+            rel="noreferrer"
             href="https://www.instagram.com/gf_bbq/"
           >
             <img id="instagram" src={IG} alt="Instagram logo" />
