@@ -8,11 +8,11 @@ function App() {
       <div id="app">
         <img src={logo} className="logo" alt="Vite logo" />
         <div id="menubar">
-          <a href="#startOfMenu">
-            <h2>Dishes</h2>
+          <a id="button" href="#startOfMenu">
+            <button>Dishes</button>
           </a>
-          <a href="#location">
-            <h2>Location</h2>
+          <a id="button" href="#location">
+            <button>Location</button>
           </a>
         </div>
         <h1>Menu</h1>
@@ -64,10 +64,10 @@ function App() {
         <div id="socials">
           <a
             target="_blank"
-            id="instagram"
             rel="noreferrer"
             href="https://www.instagram.com/gf_bbq/"
           >
+            <h4>Follow us!</h4>
             <img id="instagram" src={IG} alt="Instagram logo" />
           </a>
         </div>
