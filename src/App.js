@@ -68,7 +68,14 @@ function App() {
             href="https://www.instagram.com/gf_bbq/"
           >
             <h4>Follow us!</h4>
-            <img id="instagram" src={IG} alt="Instagram logo" />
+            <img 
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.instagram.com/gf_bbq/"
+              id="instagram"
+              src={IG}
+              alt="Instagram logo"
+            />
           </a>
         </div>
       </div>

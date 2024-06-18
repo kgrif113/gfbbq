@@ -1,90 +1,3 @@
-/* #root {
-  margin: 0;
-  padding: 0;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  align-self: center;
-  width: 100vw;
-  height: 100vh;
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
-#menubar{
-  display: flex;
-}
-
-button {
-  background-color: rgb(230, 133, 59);
-  color: rgb(255, 255, 255);
-  border-radius: 25px;
-  width: fit-content;
-  height: fit-content;
-  border: none;
-  padding: 1em;
-  font-size: larger;
-  filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.5));
-}
-
-a {
-  margin: 3em;
-  text-decoration: none;
-  color: white;
-}
-
-a:hover{
-    filter: drop-shadow(0 0 1em #fff7f6c2);
-}
-
-h3{
-  font-style: italic;
-  display: flex;
-  justify-self: center;
-}
-
-#app{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.logo {
-  margin-top: 2em;
-  height: 8em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #feac99c2);
-}
-
-#socials {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-h4 {
-  display: flex;
-  justify-content: center;
-}
-
-#instagram {
-  width: 7em;
-  margin: 4em;
-  display: flex;
-  align-self: center;
-  justify-content: center;
-} */
-
-
-/* test*/
-
 /* Reset default margin and padding */
 * {
   margin: 0;
@@ -123,6 +36,10 @@ button {
   font-size: 1rem;
   cursor: pointer;
   filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.5));
+}
+
+h1 {
+  margin-top: 2rem;
 }
 
 /* Style links */
@@ -166,7 +83,7 @@ h3 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 4em;
+    margin-top: 2em;
   }
   
   h4 {
@@ -183,5 +100,6 @@ h3 {
   align-self: center;
   align-items: center;
   display: flex;
+  margin-bottom: 2em;
 
 }
