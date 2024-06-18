@@ -131,7 +131,7 @@ a {
   color: white;
 }
 
-a:hover {
+a:active {
   filter: drop-shadow(0 0 1em #fff7f6c2);
 }
 

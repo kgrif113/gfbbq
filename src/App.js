@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       <div id="app">
-        <img src={logo} className="logo" alt="Vite logo" />
+        <img src={logo} href="logo" className="logo" alt="Vite logo" />
         <div id="menubar">
           <a id="button" href="#startOfMenu">
             <button>Dishes</button>
